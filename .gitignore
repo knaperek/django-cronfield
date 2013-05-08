@@ -1,0 +1,9 @@
+*.pyc
+*.pyo
+*.swp
+*.sqlite3
+local_settings.py
+env/
+collected_static/
+media/
+

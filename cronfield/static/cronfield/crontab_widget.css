@@ -1,0 +1,33 @@
+.cc_wrapper {
+	position: relative;
+}
+
+.cc_wrapper .cc_element {
+	padding: 20px;
+	float: left;
+	width: 110px;
+}
+
+.cc_wrapper .cc_element select {
+	width: 100%;
+	background: white;
+	color: black;
+}
+
+.cc_wrapper .cc_element .button {
+	width: 50%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.cc_wrapper .cc_element .fleft {
+	width: 50px;
+	padding-right: 0px;
+	margin-right: 0px;
+	float: left;
+}
+
+.cc_wrapper .cc_element .fright {
+	width: 50px;
+	float: right;
+}
