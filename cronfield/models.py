@@ -57,3 +57,9 @@ class CronField(models.CharField):
         super(CronField, self).validate(value, model_instance)
         if self.editable:  # Skip validation for non-editable fields.
             _validate_CRON_string(value)
+
+try:
+    from south.modelsinspector import add_introspection_rules
+    add_introspection_rules([], ["^cronfield\.models\.CronField", ])
+except ImportError:
+    pass
