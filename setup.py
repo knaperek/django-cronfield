@@ -8,7 +8,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-cronfield',
-    version='0.2dev',
+    version='0.2',
     packages=['cronfield'],
     include_package_data=True,
     license='BSD License',
