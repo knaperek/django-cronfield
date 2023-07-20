@@ -5,29 +5,32 @@
 .cc_wrapper .cc_element {
 	padding: 20px;
 	float: left;
-	width: 110px;
+	width: 160px;
 }
 
 .cc_wrapper .cc_element select {
 	width: 100%;
+	margin-bottom: 2px;
 	background: white;
 	color: black;
 }
 
 .cc_wrapper .cc_element .button {
-	width: 50%;
+	width: 76px;
 	text-align: center;
 	cursor: pointer;
+	margin: 2px;
 }
 
 .cc_wrapper .cc_element .fleft {
-	width: 50px;
+	width: 75px;
 	padding-right: 0px;
-	margin-right: 0px;
+	margin: 2px;
 	float: left;
 }
 
 .cc_wrapper .cc_element .fright {
 	width: 50px;
+	margin: 2px;
 	float: right;
 }
